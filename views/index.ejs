@@ -15,9 +15,13 @@
   </head>
   <body class="d-flex flex-column justify-content-center p-4">
     <h1 class="text-center p-4">Climbing Gyms Singapore</h1>
-    <a href="/gyms/new" class="text-center p-4">Register Gym</a>
-    <p>List of gyms to go</p>
-    <ul>
+    <a href="/gyms/new" class="text-center p-4" style="color: #769642"
+      >Register a Gym</a
+    >
+    <img src="/images/rockclimb.png" />
+    <p class="text-center">Be part of the popular gym list</p>
+    <h3 class="text-center">Popular Gym list</h3>
+    <ul class="d-flex flex-column align-items-center p-4">
       <% climbgyms.forEach(gym => { %>
       <li><a href="/gyms/<%= gym._id%>"><%= gym.name %></a></li>
       <% }); %>

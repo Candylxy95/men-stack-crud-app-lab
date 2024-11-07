@@ -1,16 +1,30 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&family=Tilt+Warp&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&family=Tilt+Warp&display=swap");
 
 body {
-  font-family: "Montserrat", serif;
+  font-family: "Montserrat", sans-serif;
   background-color: rgb(255, 251, 242);
+  font-weight: 400;
 }
 
 a {
   text-decoration: none;
-  color: #769642;
+  color: white;
 }
 
-button {
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+img {
+  width: 50%;
+  border-radius: 30px;
+  align-self: center;
+  margin-bottom: 30px;
+}
+
+button,
+li {
   align-self: center;
   margin: 10px 4px 4px 4px;
   background-color: #3f6a51;
@@ -21,10 +35,37 @@ button {
   width: 15em;
 }
 
-button:hover {
+button:hover,
+li:hover {
   background-color: #769642;
 }
 
 button:active {
   background-color: #2d4d3a;
+}
+
+input,
+select {
+  background-color: #769642;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 15px;
+  border: none;
+  width: 15em;
+  text-align: left;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avail {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.avail > p {
+  margin-top: -10px;
 }

@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&family=Tilt+Warp&display=swap");
+
+body {
+  font-family: "Montserrat", serif;
+  background-color: rgb(255, 251, 242);
+}
+
+a {
+  text-decoration: none;
+  color: #769642;
+}
+
+button {
+  align-self: center;
+  margin: 10px 4px 4px 4px;
+  background-color: #3f6a51;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 15px;
+  border: none;
+  width: 15em;
+}
+
+button:hover {
+  background-color: #769642;
+}
+
+button:active {
+  background-color: #2d4d3a;
+}
